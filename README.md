@@ -237,14 +237,6 @@ git clone https://github.com/<your-username>/Luxury-Housing-Sales-Analysis.git
 
 ---
 
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Run Python Notebook
 
 Open
