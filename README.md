@@ -188,18 +188,42 @@ The analysis revealed several key insights:
 - Sales are distributed across multiple builders, indicating a competitive luxury housing market.
 
 ---
+## 🔄 Project Workflow
+
+```text
+Raw Luxury Housing Dataset (100,000+ Records)
+                    ↓
+         Python Data Cleaning (Pandas)
+                    ↓
+     Feature Engineering & Preprocessing
+                    ↓
+       Cleaned Housing Dataset (CSV)
+                    ↓
+      Load Data into MySQL (SQLAlchemy)
+                    ↓
+      MySQL Database (luxury_housing_sales)
+                    ↓
+      SQL Queries & Data Validation
+                    ↓
+     Power BI Live SQL Connection
+                    ↓
+     Interactive Power BI Dashboard
+                    ↓
+     Business Insights & Decision Making
+```
 
 # 📸 Dashboard Screenshots
 
 ## Executive Dashboard
 
-*(Insert dashboard_page1.png here)*
+<img width="1213" height="748" alt="image" src="https://github.com/user-attachments/assets/b64cc75e-710e-450f-b8f1-466a9eeef155" />
+
 
 ---
 
 ## Detailed Analysis Dashboard
 
-*(Insert dashboard_page2.png here)*
+<img width="1192" height="751" alt="image" src="https://github.com/user-attachments/assets/d8ab2d43-ced5-4e5c-a3bc-fbb942873a72" />
 
 ---
 
@@ -226,7 +250,7 @@ pip install -r requirements.txt
 Open
 
 ```
-Luxury_Housing_Analysis.ipynb
+Luxury_Housing_Sales_Analysis.ipynb
 ```
 
 in Google Colab or Jupyter Notebook.
@@ -250,20 +274,10 @@ after updating your MySQL credentials.
 Open
 
 ```
-Luxury_Housing_Sales.pbix
+Luxury Housing Sales Analysis.pbix
 ```
 
 and refresh the MySQL connection.
-
----
-
-# 📌 Future Improvements
-
-- Predictive housing price forecasting using Machine Learning.
-- Sentiment analysis on buyer comments.
-- Automated ETL pipeline.
-- Real-time dashboard updates.
-- Deployment using Streamlit.
 
 ---
 
@@ -284,5 +298,3 @@ and refresh the MySQL connection.
 # 👩‍💻 Author
 
 **Silviya X**
-
-Data Analytics Project – Luxury Housing Sales Analysis
